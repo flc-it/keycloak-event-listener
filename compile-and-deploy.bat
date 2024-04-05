@@ -1,0 +1,1 @@
+cd C:\Users\Florian\git\flc-it\keycloak-event-listener && mvn clean install && copy target\keycloak-event-listener-1.0.0-SNAPSHOT-with-dependencies.jar C:\keycloak\18.0.2\standalone\deployments\keycloak-event-listener-1.0.0-SNAPSHOT-with-dependencies.jar /Y

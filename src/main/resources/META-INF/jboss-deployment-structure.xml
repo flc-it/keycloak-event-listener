@@ -1,0 +1,13 @@
+<jboss-deployment-structure>
+    <deployment>
+        <dependencies>
+            <module name="org.keycloak.keycloak-core"/>
+            <module name="org.keycloak.keycloak-server-spi"/>
+            <module name="org.keycloak.keycloak-server-spi-private"/>
+            <module name="org.keycloak.keycloak-services"/>
+            <module name="org.apache.kafka.client"/>
+            <module name="javax.jms.api"/>
+            <module name="com.tibco.tibjms"/>
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
